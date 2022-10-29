@@ -1,0 +1,49 @@
+* {
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+table {
+    height: 200px;
+}
+
+table, h1 {
+    display: block;
+    position: absolute;
+    bottom: 1080px;
+    right: 505px;
+    width: 23%;
+    text-align: center;
+    background: red;
+    color: white;
+    box-shadow: 5px 5px 5px blue;
+    z-index: 1;
+}
+
+.date:hover {
+    cursor: pointer;
+}
+
+.left {
+    display: none;
+}
+
+.task {
+    display: block;
+    position: absolute;
+    bottom: 870px;
+    right: 505px;
+    width: 22.3%;
+    height: 200px;
+    padding: 5px;
+    margin-top: 15px;
+    background: red;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 5px 5px;
+    box-shadow: 5px 5px 5px blue;
+    z-index: 2;
+}
